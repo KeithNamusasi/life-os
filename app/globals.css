@@ -11,11 +11,13 @@
   --line: #e1d7c8;
 }
 
-@theme inline {
-  --color-background: var(--base);
-  --color-foreground: var(--ink);
-  --font-sans: var(--font-space-grotesk);
-  --font-mono: var(--font-ibm-plex-mono);
+@layer theme {
+  :root {
+    --color-background: var(--base);
+    --color-foreground: var(--ink);
+    --font-sans: var(--font-space-grotesk);
+    --font-mono: var(--font-ibm-plex-mono);
+  }
 }
 
 body {
